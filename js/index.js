@@ -12,8 +12,11 @@ logo.addEventListener ('click', (event) => {
     alert('You have clicked on the fun bus!')
 })
 
-// Focus Map Image
-const middle_title = document.querySelector('.content-section .text-content h2');
-middle_title.addEventListener('focus', (event) => {
-    event.target.style.background = 'aquamarine';
-})
+// Display Message When Window is Resized
+window.addEventListener('resize', () => alert('You have resized the window!'))
+
+// DoubleClick NavBar
+// const nav_bar = document.querySelector('logo-heading');
+// nav_bar.addEventListener('dblclick', (event) => {
+//     event.target.style.color = 'aquamarine';
+// })
